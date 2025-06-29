@@ -1,0 +1,54 @@
+🏃‍➡️ {
+    📌numeroum = 5
+    📌numerodois = 2
+    📌numerotres = 7
+    
+    🖨️("Jogo de Adivinhacao")
+    🖨️("Adivinhe 3 numeros entre 0-9 na ordem correta")
+    
+    📌tent = 0
+    📌acertou = 0
+    
+    🎠 (📌tent < 5){
+        📌tent = 📌tent + 1
+        
+        🖌️(255, 223, 0)
+        🖨️("Tentativa")
+        🖨️(📌tent)
+        
+        🖌️(0, 0, 255)
+        🖨️("Primeiro numero:")
+        ✍️(📌guessum)
+        
+        🖨️("Segundo numero:")
+        ✍️(📌guessdois)
+        
+        🖨️("Terceiro numero:")
+        ✍️(📌guesstres)
+        
+        🤌 ( 📌guessum == 📌numeroum){
+          🤌 ( 📌guessdois == 📌numerodois ){
+            🤌 ( 📌guesstres == 📌numerotres){
+                📌acertou = 1
+                👌
+                }
+            }  
+        }
+    }
+
+    
+    🤌 (📌acertou == 1) {
+            🖌️(0, 255, 0)
+            🖨️( "PARABENS! Acertou em" )
+            🖨️( 📌tent )
+            🖨️( "tentativas" )
+        } 👍 {
+            🖌️(255, 0, 0)
+            🖨️("Suas tentativas acabaram :c ")
+            🖌️(255, 255, 255)
+            🖨️("Numeros corretos:")
+            🖨️(📌numeroum)
+            🖨️(📌numerodois)
+            🖨️(📌numerotres)
+        }
+}

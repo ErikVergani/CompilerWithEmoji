@@ -1,0 +1,14 @@
+🏃‍➡️ {
+    📌nome = "Erik"
+
+    🖨️("\nInsira um nome")
+    ✍️(string 📌nomea)
+
+    🖨️("Vou exibir o nome screto...")
+    🖌️(255,0,0)
+    🖨️(📌nome)
+    🖌️(255,255,255)
+    🖨️("Agora o que voce digitou")
+    🖌️(0,255,0)
+    🖨️(📌nomea)
+}

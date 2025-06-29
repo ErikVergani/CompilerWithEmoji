@@ -1,0 +1,16 @@
+🏃‍➡️ {
+🖨️("Quantos numeros deseja inserir?")
+✍️(📌n)
+📌i = 1
+📌max = 0
+🎠(📌i <= 📌n) {
+    🖨️("Digite um numero")
+    ✍️(📌x)
+    🤌 (📌x > 📌max) {
+        📌max = 📌x
+    }
+    📌i = 📌i + 1
+}
+🖨️("O maior numero digitado é ...")
+🖨️(📌max)
+}
