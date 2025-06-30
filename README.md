@@ -1,5 +1,7 @@
 # CompilerWithEmoji
 
+OBS: Testado com Windows 11, emoji da função principal e declaração de funções é "Pessoa correndo de frente para direita" e "Pessoa andando de frente para a direita". Identificado que windows 10 e outros sitemas podem não possuir o emoji, sendo reconhecido como pessoa correndo + seta para direita.
+
 ### Declaração de Função Principal
 ```
 🏃‍➡️{}
